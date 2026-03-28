@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import yash from "../../images/yash.jpeg"
 
 function Hero({ mode }) {
   const [loaded, setLoaded] = useState(false);
@@ -81,7 +80,7 @@ function Hero({ mode }) {
               <div className={`relative rounded-3xl p-8 shadow-2xl backdrop-blur-sm border ${isDark ? 'bg-slate-800/60 border-slate-700/50' : 'bg-gradient-to-br from-white/90 to-white/70 border-white/50'}`}>
                 <div className="relative">
                   <img
-                    src={yash}
+                    src="/yash.jpeg"
                     alt="Yash Bachwani"
                     className="mx-auto h-48 w-48 rounded-2xl border-4 border-white shadow-xl object-cover transition-transform duration-300 hover:scale-105 animate-pulse-glow"
                   />
